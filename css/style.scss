@@ -1,0 +1,22 @@
+// Color and font variables
+$primary-color: #add1e6;
+$secondary-color: #254e70;
+$accent-color: #ffcba4;
+$heading-font: 'Montserrat', sans-serif;
+$subheading-font: 'Raleway', sans-serif;
+$paragraph-font: 'Nunito Sans', sans-serif;
+$accent-font: 'Dancing Script', cursive;
+$grid-heading-font: 'Architects Daughter', cursive;
+$grid-accent-font: 'Homemade Apple', cursive;
+$grid-color-one: #448fad;
+$grid-color-two: #254e70;
+$grid-color-three: #40a1a3;
+
+// Override Bootstrap padding
+.container-fluid {
+    padding: 0;
+}
+
+body {
+    background-color: $primary-color;
+}
