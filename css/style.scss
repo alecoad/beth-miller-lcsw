@@ -13,9 +13,9 @@ $grid-color-two: #254e70;
 $grid-color-three: #40a1a3;
 
 // Override Bootstrap padding
-// .container-fluid {
-//     padding: 0;
-// }
+.container-fluid {
+    padding: 0;
+}
 
 // General styles
 body {
@@ -66,4 +66,26 @@ body {
 
 .btn-custom span {
     text-shadow: none;
+}
+
+// Hero area styles
+.hero-area {
+    background: url('../img/jon-flobrant-unsplash.jpg') center no-repeat $secondary-color;
+    background-size: cover;
+    min-height: 700px;
+}
+
+.hero-area h1 {
+    color: #fff;
+    font-family: 'Atma', cursive;
+    font-size: 3rem;
+    line-height: 1.25;
+    padding: 3rem;
+    text-align: center;
+}
+
+.hero-area h1 span {
+    color: $accent-color;
+    font-family: 'Dancing Script', cursive;
+    font-size: 6rem;
 }

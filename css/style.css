@@ -1,3 +1,7 @@
+.container-fluid {
+  padding: 0;
+}
+
 body {
   background-color: #add1e6;
 }
@@ -45,6 +49,27 @@ body {
 
 .btn-custom span {
   text-shadow: none;
+}
+
+.hero-area {
+  background: url("../img/jon-flobrant-unsplash.jpg") center no-repeat #254e70;
+  background-size: cover;
+  min-height: 700px;
+}
+
+.hero-area h1 {
+  color: #fff;
+  font-family: "Atma", cursive;
+  font-size: 3rem;
+  line-height: 1.25;
+  padding: 3rem;
+  text-align: center;
+}
+
+.hero-area h1 span {
+  color: #ffcba4;
+  font-family: "Dancing Script", cursive;
+  font-size: 6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
