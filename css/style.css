@@ -51,6 +51,7 @@ body {
   text-shadow: none;
 }
 
+/* ----- Home Page Styles ----- */
 .hero-area {
   background: url("../img/jon-flobrant-unsplash.jpg") center no-repeat #254e70;
   background-size: cover;
@@ -70,6 +71,32 @@ body {
   color: #ffcba4;
   font-family: "Dancing Script", cursive;
   font-size: 6rem;
+}
+
+.intro {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.intro .row {
+  justify-content: center;
+}
+
+.intro h1 {
+  color: #254e70;
+  font-family: "Montserrat", sans-serif;
+  font-size: 6rem;
+  font-weight: 600;
+  text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.intro h2 {
+  color: #254e70;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
