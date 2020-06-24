@@ -12,17 +12,17 @@ $grid-color-one: #448fad;
 $grid-color-two: #254e70;
 $grid-color-three: #40a1a3;
 
-// Override Bootstrap padding
+/* Override Bootstrap padding */
 .container-fluid {
     padding: 0;
 }
 
-// General styles
+/* General Styles */
 body {
     background-color: $primary-color;
 }
 
-// Navbar
+/* Navigation */
 .navbar-light .navbar-brand {
     color: $secondary-color;
     font-family: $subheading-font;
@@ -68,9 +68,57 @@ body {
     text-shadow: none;
 }
 
-/* ----- Home Page Styles ----- */
+/* Footer */
+footer {
+    background-color: $secondary-color;
+    color: #fff;
+    padding-top: 5rem;
 
-// Hero area styles
+    h3 {
+        font-family: $heading-font;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    h4 {
+        font-family: $subheading-font;
+        margin-bottom: 2rem;
+    }
+
+    h5 {
+        font-family: $heading-font;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1.25rem;
+    }
+
+    address {
+        font-family: $subheading-font;
+        font-size: 1.25rem;
+
+        a {
+            color: #fff;
+            display: inline-block;
+            margin-bottom: 1.25rem;
+        }
+        a:hover {
+            color: $accent-color;
+        }
+    }
+
+    h6 {
+        font-family: $heading-font;
+        font-weight: 600;
+        margin-bottom: 0;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+}
+
+
+/* -- HOME PAGE STYLES -- */
+
+/* Hero Area */
 .hero-area {
     background: url('../img/jon-flobrant-unsplash.jpg') center no-repeat $secondary-color;
     background-size: cover;
@@ -83,7 +131,6 @@ body {
     font-size: 3rem;
     line-height: 1.25;
     padding: 3rem;
-    text-align: center;
 }
 
 .hero-area h1 span {
@@ -92,10 +139,9 @@ body {
     font-size: 6rem;
 }
 
-// Intro section styles
+/* Introduction */
 .intro {
-    //min-height: 300px;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 100px;
     text-align: center;
 }
@@ -118,4 +164,20 @@ body {
     font-size: 2rem;
     font-style: italic;
     font-weight: 600;
+}
+
+/* Grid */
+.grid-text {
+    background-color: red;
+    height: 250px;
+}
+
+.grid-image {
+    background-color: blue;
+    height: 250px;
+}
+
+
+.footer h6 {
+    text-align: center;
 }
