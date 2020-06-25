@@ -145,18 +145,52 @@ footer h6 {
 }
 
 /* Grid */
+.bg-1 {
+  background-color: #448fad;
+}
+
+.bg-2 {
+  background-color: #254e70;
+}
+
+.bg-3 {
+  background-color: #40a1a3;
+}
+
 .grid-text {
-  background-color: red;
-  height: 250px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.grid-text h3 {
+  align-self: flex-end;
+  font-family: "Architects Daughter", cursive;
+  font-size: 2.25rem;
+  padding-bottom: 1rem;
+}
+.grid-text h3 span {
+  color: #ffcba4;
+  font-family: "Homemade Apple", cursive;
+  font-size: 2.75rem;
+  line-height: 2;
+}
+.grid-text h3 .shrink-header {
+  font-size: 1.75rem;
+}
+.grid-text p {
+  align-self: flex-start;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.25rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-top: 1rem;
 }
 
 .grid-image {
-  background-color: blue;
-  height: 250px;
-}
-
-.footer h6 {
-  text-align: center;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
