@@ -169,12 +169,14 @@ footer h6 {
   align-self: flex-end;
   font-family: "Architects Daughter", cursive;
   font-size: 2.25rem;
-  padding-bottom: 1rem;
+  font-size: 2.8vw;
+  padding: 1rem;
 }
 .grid-text h3 span {
   color: #ffcba4;
   font-family: "Homemade Apple", cursive;
   font-size: 2.75rem;
+  font-size: 2.8vw;
   line-height: 2;
 }
 .grid-text h3 .shrink-header {
@@ -183,7 +185,8 @@ footer h6 {
 .grid-text p {
   align-self: flex-start;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 1.25rem;
+  font-size: 2rem;
+  font-size: 1.4vw;
   padding-right: 3rem;
   padding-left: 3rem;
   padding-top: 1rem;
