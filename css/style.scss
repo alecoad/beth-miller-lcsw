@@ -26,6 +26,7 @@ body {
 .navbar-light .navbar-brand {
     color: $secondary-color;
     font-family: $subheading-font;
+    margin-left: 1.5rem;
 }
 
 .navbar-brand span {
@@ -81,17 +82,21 @@ footer {
     h3 {
         font-family: $heading-font;
         font-size: 2rem;
+        font-size: 2vw;
         font-weight: 600;
     }
 
     h4 {
         font-family: $subheading-font;
+        font-size: 1.5rem;
+        font-size: 1.5vw;
         margin-bottom: 2rem;
     }
 
     h5 {
         font-family: $heading-font;
         font-size: 1.5rem;
+        font-size: 1.5vw;
         font-weight: 600;
         margin-bottom: 1.25rem;
     }
@@ -99,6 +104,8 @@ footer {
     address {
         font-family: $subheading-font;
         font-size: 1.25rem;
+        font-size: 1.25vw;
+        margin-bottom: 0;
 
         a {
             color: #fff;
@@ -118,7 +125,6 @@ footer {
         padding-bottom: 2rem;
     }
 }
-
 
 /* -- HOME PAGE STYLES -- */
 
@@ -225,3 +231,5 @@ footer {
 .grid-image {
     width: 100%;
 }
+
+/* -- ABOUT PAGE STYLES -- */
