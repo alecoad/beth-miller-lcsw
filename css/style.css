@@ -207,5 +207,39 @@ footer h6 {
 }
 
 /* -- ABOUT PAGE STYLES -- */
+.about, .credentials, .location, .payment {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.about {
+  border-top: 2px solid #254e70;
+}
+.about h1 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  margin: 3rem 0;
+}
+.about img {
+  width: 100%;
+}
+
+.about, .location, .payment {
+  color: #254e70;
+}
+.about h2, .location h2, .payment h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+.about p, .location p, .payment p {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 2rem 0;
+}
+
+/* Dark font on light background */
 
 /*# sourceMappingURL=style.css.map */
