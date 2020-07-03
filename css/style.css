@@ -208,8 +208,7 @@ footer h6 {
 
 /* -- ABOUT PAGE STYLES -- */
 .about, .credentials, .location, .payment {
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding: 5rem;
 }
 
 .about {
@@ -237,9 +236,36 @@ footer h6 {
 }
 .about p, .location p, .payment p {
   font-family: "Nunito Sans", sans-serif;
-  margin: 2rem 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
 }
 
-/* Dark font on light background */
+.credentials {
+  color: #fff;
+  background-color: #254e70;
+}
+.credentials h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+.credentials h5 {
+  font-family: "Raleway", sans-serif;
+  margin: 1rem 0;
+}
+.credentials li {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+.location {
+  padding-bottom: 0;
+}
+
+.payment {
+  padding-top: 0;
+}
 
 /*# sourceMappingURL=style.css.map */

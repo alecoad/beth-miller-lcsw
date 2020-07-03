@@ -235,8 +235,7 @@ footer {
 /* -- ABOUT PAGE STYLES -- */
 
 .about, .credentials, .location, .payment {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding: 5rem;
 }
 
 .about {
@@ -267,9 +266,38 @@ footer {
 
     p {
         font-family: $paragraph-font;
-        margin: 2rem 0;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        margin-bottom: 2.5rem;
     }
 }
 
-/* Dark font on light background */
+.credentials {
+    color: #fff;
+    background-color: $secondary-color;
 
+    h2 {
+        font-family: $heading-font;
+        font-weight: 600;
+        margin: 2rem 0;
+    }
+
+    h5 {
+        font-family: $subheading-font;
+        margin: 1rem 0;
+    }
+
+    li {
+        font-family: $subheading-font;
+        font-size: 1.25rem;
+        margin: 1rem 0;
+    }
+}
+
+.location {
+    padding-bottom: 0;
+}
+
+.payment {
+    padding-top: 0;
+}
