@@ -301,3 +301,20 @@ footer {
 .payment {
     padding-top: 0;
 }
+
+/* -- FORMS PAGE STYLES -- */
+
+.forms-image {
+    background: url('../img/juliane-liebermann-unsplash.jpg') center no-repeat $secondary-color;
+    background-size: cover;
+    min-height: 800px;
+}
+
+
+/* -- CONTACT PAGE STYLES -- */
+
+.contact-image {
+    background: url('../img/thiago-cerqueira-unsplash.jpg') center no-repeat $secondary-color;
+    background-size: cover;
+    min-height: 800px;
+}
