@@ -208,7 +208,7 @@ footer h6 {
 
 /* -- ABOUT PAGE STYLES -- */
 .about, .credentials, .location, .payment {
-  padding: 5rem;
+  padding: 3rem 5rem 5rem;
 }
 
 .about {
@@ -269,6 +269,31 @@ footer h6 {
 }
 
 /* -- FORMS PAGE STYLES -- */
+.forms {
+  border-top: 2px solid #254e70;
+  padding: 3rem 5rem 5rem;
+}
+.forms h1 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  margin: 3rem 0;
+}
+
+.form-item {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 4rem;
+}
+.form-item h4 {
+  color: #254e70;
+  font-weight: 600;
+}
+.form-item a {
+  margin-left: 2rem;
+}
+
 .forms-image {
   background: url("../img/juliane-liebermann-unsplash.jpg") center no-repeat #254e70;
   background-size: cover;
