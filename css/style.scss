@@ -22,6 +22,18 @@ body {
     background-color: $primary-color;
 }
 
+.btn-custom-link {
+    color: $secondary-color;
+    background-color: $accent-color;
+    border-radius: 0.5rem;
+    border: 2px solid $secondary-color;
+}
+
+.btn-custom-link:hover {
+    color: #fff;
+    background-color: $secondary-color;
+}
+
 /* Navigation */
 .navbar-light .navbar-brand {
     color: $secondary-color;

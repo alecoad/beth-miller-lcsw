@@ -8,6 +8,18 @@ body {
   background-color: #add1e6;
 }
 
+.btn-custom-link {
+  color: #254e70;
+  background-color: #ffcba4;
+  border-radius: 0.5rem;
+  border: 2px solid #254e70;
+}
+
+.btn-custom-link:hover {
+  color: #fff;
+  background-color: #254e70;
+}
+
 /* Navigation */
 .navbar-light .navbar-brand {
   color: #254e70;
