@@ -26,7 +26,8 @@ body {
     color: $secondary-color;
     background-color: $accent-color;
     border-radius: 0.5rem;
-    border: 2px solid $secondary-color;
+    border: 1px solid $secondary-color;
+    font-weight: 600;
 }
 
 .btn-custom-link:hover {
@@ -402,4 +403,14 @@ footer {
     background: url('../img/thiago-cerqueira-unsplash.jpg') center no-repeat $secondary-color;
     background-size: cover;
     min-height: 800px;
+}
+
+/* ----- TABLET STYLES ----- */
+@media (min-width: 768px) {
+
+}
+
+/* ----- DESKTOP STYLES ----- */
+@media (min-width: 992px) {
+
 }
