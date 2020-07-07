@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* ----- MOBILE STYLES FIRST! ----- */
 /* General Styles */
 body {
   background-color: #add1e6;
@@ -25,13 +26,13 @@ body {
 .navbar-light .navbar-brand {
   color: #254e70;
   font-family: "Raleway", sans-serif;
-  margin-left: 1.5rem;
+  font-size: 0.85rem;
 }
 
 .navbar-brand span {
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
@@ -44,6 +45,7 @@ body {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   margin-right: 1.5rem;
   margin-left: 1.5rem;
@@ -72,34 +74,33 @@ body {
 footer {
   background-color: #254e70;
   color: #fff;
-  padding-top: 5rem;
+  text-align: center;
+}
+footer .footer-contact-info {
+  padding: 4rem 2rem;
 }
 footer img {
   width: 100%;
 }
 footer h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  font-size: 2vw;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 footer h4 {
   font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
-  font-size: 1.5vw;
+  font-size: 1rem;
   margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #fff;
 }
 footer h5 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
-  font-size: 1.5vw;
   font-weight: 600;
   margin-bottom: 1.25rem;
 }
 footer address {
   font-family: "Raleway", sans-serif;
-  font-size: 1.25rem;
-  font-size: 1.25vw;
   margin-bottom: 0;
 }
 footer address a {
@@ -112,10 +113,11 @@ footer address a:hover {
 }
 footer h6 {
   font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
   font-weight: 600;
   margin-bottom: 0;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /* -- HOME PAGE STYLES -- */
@@ -123,21 +125,22 @@ footer h6 {
 .hero-area {
   background: url("../img/jon-flobrant-unsplash.jpg") center no-repeat #254e70;
   background-size: cover;
-  min-height: 700px;
+  min-height: 500px;
 }
 
 .hero-area h1 {
   color: #fff;
   font-family: "Atma", cursive;
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.25;
-  padding: 3rem;
+  padding-top: 100px;
 }
 
 .hero-area h1 span {
   color: #ffcba4;
   font-family: "Dancing Script", cursive;
-  font-size: 6rem;
+  font-size: 3rem;
+  line-height: 0.75;
 }
 
 /* Introduction */
@@ -154,15 +157,16 @@ footer h6 {
 .intro h1 {
   color: #254e70;
   font-family: "Montserrat", sans-serif;
-  font-size: 6rem;
+  font-size: 2.5rem;
   font-weight: 600;
   text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
+  overflow-wrap: break-word;
 }
 
 .intro h2 {
   color: #254e70;
   font-family: "Raleway", sans-serif;
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-style: italic;
   font-weight: 600;
 }
@@ -191,28 +195,19 @@ footer h6 {
 .grid-text h3 {
   align-self: flex-end;
   font-family: "Architects Daughter", cursive;
-  font-size: 2.25rem;
-  font-size: 2.8vw;
-  padding: 1rem;
+  font-size: 1.75rem;
+  padding: 4rem 1rem 1rem;
 }
 .grid-text h3 span {
   color: #ffcba4;
   font-family: "Homemade Apple", cursive;
-  font-size: 2.75rem;
-  font-size: 2.8vw;
+  font-size: 2rem;
   line-height: 2;
-}
-.grid-text h3 .shrink-header {
-  font-size: 1.75rem;
 }
 .grid-text p {
   align-self: flex-start;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 2rem;
-  font-size: 1.4vw;
-  padding-right: 3rem;
-  padding-left: 3rem;
-  padding-top: 1rem;
+  padding: 1rem 3rem 4rem;
 }
 
 .grid-image {
@@ -358,6 +353,404 @@ footer h6 {
 }
 
 /* ----- TABLET STYLES ----- */
+@media (min-width: 768px) {
+  /* Navigation */
+  .navbar-light .navbar-brand {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .hero-area h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-area h1 span {
+    font-size: 3.5rem;
+  }
+
+  .intro h1 {
+    font-size: 3rem;
+  }
+
+  .intro h2 {
+    font-size: 1.75rem;
+  }
+
+  .grid-text h3 {
+    padding-bottom: 0;
+  }
+  .grid-text p {
+    padding-top: 0;
+  }
+}
 /* ----- DESKTOP STYLES ----- */
+@media (min-width: 992px) {
+  /* Override Bootstrap padding */
+  .container-fluid {
+    padding: 0;
+  }
+
+  /* General Styles */
+  body {
+    background-color: #add1e6;
+  }
+
+  .btn-custom-link {
+    color: #254e70;
+    background-color: #ffcba4;
+    border-radius: 0.5rem;
+    border: 1px solid #254e70;
+    font-weight: 600;
+  }
+
+  .btn-custom-link:hover {
+    color: #fff;
+    background-color: #254e70;
+  }
+
+  /* Navigation */
+  .navbar-light .navbar-brand {
+    color: #254e70;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.25rem;
+    margin-left: 1.5rem;
+  }
+
+  .navbar-brand span {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar-light .navbar-brand:hover {
+    color: #254e70;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #254e70;
+  }
+
+  .btn-custom {
+    color: #fff;
+    background-color: #254e70;
+    border-radius: 0.5rem;
+    border: 2px solid #254e70;
+  }
+
+  .btn-custom:hover {
+    background-color: #add1e6;
+  }
+
+  .btn-custom span {
+    text-shadow: none;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #254e70;
+    color: #fff;
+    padding-top: 5rem;
+    text-align: left;
+  }
+  footer img {
+    width: 100%;
+  }
+  footer h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-size: 2vw;
+    font-weight: 600;
+  }
+  footer h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    font-size: 1.5vw;
+    margin-bottom: 2rem;
+  }
+  footer h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+  }
+  footer address {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.25rem;
+    font-size: 1.25vw;
+    margin-bottom: 0;
+  }
+  footer address a {
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 1.25rem;
+  }
+  footer address a:hover {
+    color: #ffcba4;
+  }
+  footer h6 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+
+  /* -- HOME PAGE DESKTOP STYLES -- */
+  /* Hero Area */
+  .hero-area {
+    background: url("../img/jon-flobrant-unsplash.jpg") center no-repeat #254e70;
+    background-size: cover;
+    min-height: 700px;
+  }
+
+  .hero-area h1 {
+    color: #fff;
+    font-family: "Atma", cursive;
+    font-size: 3rem;
+    line-height: 1.25;
+    padding: 3rem;
+  }
+
+  .hero-area h1 span {
+    color: #ffcba4;
+    font-family: "Dancing Script", cursive;
+    font-size: 6rem;
+  }
+
+  /* Introduction */
+  .intro {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+
+  .intro .row {
+    justify-content: center;
+  }
+
+  .intro h1 {
+    color: #254e70;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6rem;
+    font-weight: 600;
+    text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .intro h2 {
+    color: #254e70;
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 600;
+  }
+
+  /* Grid */
+  .bg-1 {
+    background-color: #448fad;
+  }
+
+  .bg-2 {
+    background-color: #254e70;
+  }
+
+  .bg-3 {
+    background-color: #40a1a3;
+  }
+
+  .grid-text {
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .grid-text h3 {
+    align-self: flex-end;
+    font-family: "Architects Daughter", cursive;
+    font-size: 2.25rem;
+    font-size: 2.8vw;
+    padding: 1rem;
+  }
+  .grid-text h3 span {
+    color: #ffcba4;
+    font-family: "Homemade Apple", cursive;
+    font-size: 2.75rem;
+    font-size: 2.8vw;
+    line-height: 2;
+  }
+  .grid-text h3 .shrink-header {
+    font-size: 1.75rem;
+  }
+  .grid-text p {
+    align-self: flex-start;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 2rem;
+    font-size: 1.4vw;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+  }
+
+  .grid-image {
+    width: 100%;
+  }
+
+  /* -- ABOUT PAGE STYLES -- */
+  .about, .credentials, .location, .payment {
+    padding: 3rem 5rem 5rem;
+  }
+
+  .about {
+    border-top: 2px solid #254e70;
+  }
+  .about h1 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin: 3rem 0;
+  }
+  .about img {
+    width: 100%;
+  }
+
+  .about, .location, .payment {
+    color: #254e70;
+  }
+  .about h2, .location h2, .payment h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin: 2rem 0;
+  }
+  .about p, .location p, .payment p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 2.5rem;
+  }
+
+  .credentials {
+    color: #fff;
+    background-color: #254e70;
+  }
+  .credentials h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin: 2rem 0;
+  }
+  .credentials h5 {
+    font-family: "Raleway", sans-serif;
+    margin: 1rem 0;
+  }
+  .credentials li {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+  }
+
+  .location {
+    padding-bottom: 0;
+  }
+
+  .payment {
+    padding-top: 0;
+  }
+
+  /* -- FORMS PAGE STYLES -- */
+  .forms {
+    border-top: 2px solid #254e70;
+    padding: 3rem 5rem 5rem;
+  }
+  .forms h1 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin: 3rem 0;
+  }
+
+  .form-item {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 4rem;
+  }
+  .form-item h4 {
+    color: #254e70;
+    font-weight: 600;
+  }
+  .form-item a {
+    margin-left: 2rem;
+  }
+
+  .forms-image {
+    background: url("../img/juliane-liebermann-unsplash.jpg") center no-repeat #254e70;
+    background-size: cover;
+    min-height: 800px;
+  }
+
+  /* -- CONTACT PAGE STYLES -- */
+  .contact {
+    border-top: 2px solid #254e70;
+    padding: 3rem 5rem 5rem;
+  }
+  .contact h1 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin: 3rem 0;
+  }
+
+  .contact-info {
+    color: #254e70;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 4rem;
+  }
+  .contact-info h3 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  .contact-info h4 {
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+  .contact-info h6 a {
+    color: #254e70;
+  }
+
+  .contact-click {
+    text-align: center;
+  }
+  .contact-click a {
+    margin-top: 4rem;
+  }
+
+  .contact-image {
+    background: url("../img/thiago-cerqueira-unsplash.jpg") center no-repeat #254e70;
+    background-size: cover;
+    min-height: 800px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
