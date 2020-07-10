@@ -334,11 +334,12 @@ footer h6 {
 /* -- CONTACT PAGE STYLES -- */
 .contact {
   border-top: 2px solid #254e70;
-  padding: 3rem 5rem 5rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem 2rem 2rem;
 }
 .contact h1 {
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-size: 1.75rem;
   font-weight: 600;
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -347,12 +348,13 @@ footer h6 {
 
 .contact-info {
   color: #254e70;
-  font-family: "Montserrat", sans-serif;
   padding-bottom: 4rem;
 }
 .contact-info h3 {
+  font-size: 1.75rem;
   font-weight: 600;
   margin-bottom: 2rem;
+  text-align: center;
 }
 .contact-info h4 {
   font-weight: 600;
@@ -363,10 +365,7 @@ footer h6 {
 }
 
 .contact-click {
-  text-align: center;
-}
-.contact-click a {
-  margin-top: 4rem;
+  text-align: left;
 }
 
 .contact-image {
@@ -443,6 +442,26 @@ footer h6 {
 
   .form-item .btn {
     margin-top: 0;
+  }
+
+  /* -- Contact Page -- */
+  .contact {
+    padding: 3rem 5rem 5rem;
+  }
+
+  .contact h1 {
+    font-size: 2rem;
+  }
+
+  .contact-click {
+    text-align: center;
+  }
+  .contact-click a {
+    margin-top: 2rem;
+  }
+
+  .contact-info h3 {
+    text-align: left;
   }
 }
 /* ----- DESKTOP STYLES ----- */
