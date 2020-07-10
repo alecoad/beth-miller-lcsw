@@ -336,11 +336,12 @@ footer {
 
 .forms {
     border-top: 2px solid $secondary-color;
-    padding: 3rem 5rem 5rem;
+    padding: 1rem 2rem 2rem;
 
     h1 {
         color: #fff;
         font-family: $heading-font;
+        font-size: 1.75rem;
         font-weight: 600;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
@@ -354,18 +355,19 @@ footer {
 
     h4 {
         color: $secondary-color;
+        font-size: 1.25rem;
         font-weight: 600;
     }
 
-    a {
-        margin-left: 2rem;
+    .btn {
+        margin-top: 1rem;
     }
 }
 
 .forms-image {
     background: url('../img/juliane-liebermann-unsplash.jpg') center no-repeat $secondary-color;
     background-size: cover;
-    min-height: 800px;
+    min-height: 300px;
 }
 
 
@@ -419,7 +421,7 @@ footer {
 .contact-image {
     background: url('../img/thiago-cerqueira-unsplash.jpg') center no-repeat $secondary-color;
     background-size: cover;
-    min-height: 800px;
+    min-height: 500px;
 }
 
 /* ----- TABLET STYLES ----- */
@@ -470,8 +472,28 @@ footer {
         padding: 2rem 2rem 1rem;
     }
 
+    .about h1 {
+        font-size: 2rem;
+    }
+
     .credentials h5 {
         padding-left: 2rem;
+    }
+
+    /* -- Forms Page -- */
+    .forms {
+        padding: 3rem 5rem 5rem;
+    }
+    .forms h1 {
+        font-size: 2rem;
+    }
+
+    .forms-image {
+        min-height: 500px;
+    }
+
+    .form-item .btn {
+        margin-top: 0;
     }
 }
 
@@ -725,7 +747,7 @@ footer {
         h1 {
             color: #fff;
             font-family: $heading-font;
-            font-size: 2rem;
+            font-size: 2.25rem;
             font-weight: 600;
             text-align: center;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
@@ -799,6 +821,7 @@ footer {
         h1 {
             color: #fff;
             font-family: $heading-font;
+            font-size: 2.25rem;
             font-weight: 600;
             text-align: center;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
@@ -812,12 +835,10 @@ footer {
 
         h4 {
             color: $secondary-color;
+            font-size: 1.5rem;
             font-weight: 600;
         }
 
-        a {
-            margin-left: 2rem;
-        }
     }
 
     .forms-image {
@@ -836,6 +857,7 @@ footer {
         h1 {
             color: #fff;
             font-family: $heading-font;
+            font-size: 2.25rem;
             font-weight: 600;
             text-align: center;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
