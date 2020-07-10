@@ -265,6 +265,7 @@ footer h6 {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
   margin: 1rem 0;
+  padding-left: 1rem;
 }
 .credentials li {
   font-family: "Raleway", sans-serif;
@@ -413,12 +414,12 @@ footer h6 {
     padding-bottom: 45%;
   }
 
-  .about img {
-    width: 80%;
-  }
-
   .about, .credentials, .location, .payment {
     padding: 2rem 2rem 1rem;
+  }
+
+  .credentials h5 {
+    padding-left: 2rem;
   }
 }
 /* ----- DESKTOP STYLES ----- */
