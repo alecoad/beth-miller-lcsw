@@ -82,14 +82,16 @@ footer .footer-contact-info {
 footer img {
   width: 100%;
 }
-footer h3 {
+footer h1 {
+  color: #add1e6;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
-footer h4 {
+footer h2 {
   font-family: "Raleway", sans-serif;
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #fff;
@@ -118,6 +120,15 @@ footer h6 {
   margin-bottom: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+footer .social-btns {
+  display: flex;
+  justify-content: center;
+}
+footer .social-btns a {
+  color: #fff;
+  font-size: 2rem;
+  padding: 4rem 2rem 0;
 }
 
 /* -- HOME PAGE STYLES -- */
@@ -271,6 +282,9 @@ footer h6 {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
   margin: 1rem 0;
+}
+.credentials .sx-verified-seal {
+  margin-left: 1rem;
 }
 
 .location {
@@ -585,8 +599,10 @@ footer h6 {
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0;
-    padding-top: 4rem;
     padding-bottom: 2rem;
+  }
+  footer .social-btns a {
+    padding: 0 2rem;
   }
 
   /* -- HOME PAGE DESKTOP STYLES -- */
