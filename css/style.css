@@ -130,6 +130,9 @@ footer .social-btns a {
   font-size: 2rem;
   padding: 4rem 2rem 0;
 }
+footer .social-btns a:hover {
+  color: #ffcba4;
+}
 
 /* -- HOME PAGE STYLES -- */
 /* Hero Area */

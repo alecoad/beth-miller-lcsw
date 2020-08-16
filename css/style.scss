@@ -153,6 +153,10 @@ footer {
             font-size: 2rem;
             padding: 4rem 2rem 0;
         }
+
+        a:hover {
+            color: $accent-color;
+        }
     }
 }
 
