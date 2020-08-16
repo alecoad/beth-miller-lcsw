@@ -331,6 +331,11 @@ footer {
 
 .location {
     padding-bottom: 0;
+
+    img {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
 }
 
 .map figure {
@@ -844,10 +849,6 @@ footer {
 
     .location {
         padding-bottom: 0;
-    }
-
-    .map figure {
-        padding-bottom: 80%;
     }
 
     .payment {

@@ -293,6 +293,10 @@ footer .social-btns a:hover {
 .location {
   padding-bottom: 0;
 }
+.location img {
+  width: 100%;
+  padding-bottom: 2rem;
+}
 
 .map figure {
   width: 100%;
@@ -768,10 +772,6 @@ footer .social-btns a:hover {
 
   .location {
     padding-bottom: 0;
-  }
-
-  .map figure {
-    padding-bottom: 80%;
   }
 
   .payment {
