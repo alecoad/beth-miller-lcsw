@@ -92,7 +92,7 @@ footer h1 {
 footer h2 {
   font-family: "Raleway", sans-serif;
   font-size: 1.25rem;
-  margin-bottom: 2rem;
+  margin: 0rem 1rem 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #fff;
 }
@@ -566,20 +566,24 @@ footer .social-btns a:hover {
     padding-top: 5rem;
     text-align: left;
   }
+  footer .footer-contact-info {
+    margin-left: 2rem;
+  }
   footer img {
     width: 100%;
+    margin-right: 2rem;
   }
-  footer h3 {
+  footer h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
     font-size: 2vw;
     font-weight: 600;
   }
-  footer h4 {
+  footer h2 {
     font-family: "Raleway", sans-serif;
     font-size: 1.5rem;
     font-size: 1.5vw;
-    margin-bottom: 2rem;
+    margin: 0rem 0rem 2rem;
   }
   footer h5 {
     font-family: "Montserrat", sans-serif;
