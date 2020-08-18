@@ -286,8 +286,9 @@ footer .social-btns a:hover {
   font-size: 1rem;
   margin: 1rem 0;
 }
-.credentials .sx-verified-seal {
-  margin: 0;
+.credentials a {
+  color: #fff;
+  font-weight: 600;
 }
 
 .location {
