@@ -323,6 +323,7 @@ footer .social-btns a:hover {
 .faq {
   padding: 2rem 1rem 1rem;
   border-top: 2px solid #254e70;
+  border-bottom: 10px ridge #fff;
   background-color: #254e70;
 }
 .faq h1 {
@@ -355,6 +356,7 @@ footer .social-btns a:hover {
 }
 
 .faq-image {
+  border-top: 2px solid #254e70;
   background: url("../img/dan-coad.jpg") center no-repeat #254e70;
   background-size: cover;
   min-height: 300px;
@@ -389,6 +391,7 @@ footer .social-btns a:hover {
 }
 
 .forms-image {
+  border-top: 2px solid #254e70;
   background: url("../img/juliane-liebermann-unsplash.jpg") center no-repeat #254e70;
   background-size: cover;
   min-height: 300px;
